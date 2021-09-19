@@ -1,0 +1,92 @@
+body{
+    font-family:sans-serif;
+    padding: 30px;
+    background:#ededed;
+}
+.head{
+    display: flex;
+    justify-content: flex-end;
+    margin: -10px;
+}
+
+#user{
+    font-weight: bold;
+    text-align: center;
+    margin-right: 12px;
+}
+
+.wrapper{
+    max-width: 690px;
+    margin: 0 auto;
+}
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+
+
+}
+
+.next{
+    
+}
+#balloon-gallery{
+
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+  
+}
+
+#balloon-gallery div{
+    background: #F7D200;
+    height: 70px;
+    width: 79px;
+    margin: 30px;
+    text-align: center;
+    color: #ff3300;
+    font-size: 40px;
+    font-family: sans-serif, arial;
+    border-radius: 100%;
+    margin-top: 20px;
+
+    
+}
+
+
+#balloon-gallery div:nth-child(3n){
+    background: #25D324;
+    color: #ffce00;
+}
+
+#balloon-gallery div:nth-child(3n-1){
+    background:#F03921;
+    color:#3f7abe;
+}
+
+#balloon-gallery div:nth-child(5n){
+    background:#14ADFA;
+    color:#8e7a8e;
+}
+
+#balloon-gallery div:nth-child(13){
+    background:#14ADFA;
+    color:#8e7a8e;
+}
+
+#balloon-gallery div:nth-child(10n){
+    background:#ff3300;
+    color: #ff3300;
+}
+
+#balloon-gallery div:nth-child(4n){
+    clear:right;
+}
+
+
+#wellplayed{
+    display:none;
+    color:#ff3300;
+    text-align: center;
+    font-size:100px;
+}

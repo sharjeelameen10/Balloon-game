@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wecome to Game</title>
+    <link rel="stylesheet" href="./baloons.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"
+    ></script>
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+
+  </head>
+  <body>
+  
+      <div class="main-container">
+          <div class="head">
+        <span id="user"></span>
+        <button onclick="logout()" class="btn btn-danger">Logout your Game</button>
+        </div>  
+
+        <div class="wrapper">
+           <h1 class="heading"> ! Baloons Game ! </h1>
+            <div id="wellplayed"> Well Played !</div><hr>
+            <h3 id="lives">Lives:</h3> <hr>
+
+           <center> <h2>Hint: Move your Mouse on Blue Balloons</h2></center>
+                <hr>
+            <div id="balloon-gallery">
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="blue"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="blue"></div>
+                <div class="balloon"></div>
+                <div class="blue"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div> 
+
+            </div>
+            </div>
+
+        </div>
+
+        <div>
+  
+
+
+
+
+
+
+
+
+
+
+
+    <script type="module">
+      const firebaseConfig = {
+        apiKey: "AIzaSyCODgfDeh0yBSGnDheFir_Hjm6x6Rw9hfY",
+  authDomain: "hacathone.firebaseapp.com",
+  projectId: "hacathone",
+  storageBucket: "hacathone.appspot.com",
+  messagingSenderId: "680363364091",
+  appId: "1:680363364091:web:47a6e142e40680e229aa5e",
+  measurementId: "G-78EPL83MXP"
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+
+      //   firebase.auth().onAuthStateChanged((user) => {});
+    </script>
+
+    <script src="./balloons2.js"></script>
+  </body>
+</html>
